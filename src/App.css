@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.input{
+     background-color: #013369 !important;
+    color: #FDFDFD !important;   
+}
+.input::placeholder{
+    color: #FDFDFD;
+}
+
+.span{
+    background-color: #013369 !important;
+    color: #FDFDFD !important;
+    height: 75px !important;
+    border-radius: 5px !important;
+}
+
+.card-bg{
+      background-color: #013369 !important;
+    color: #FDFDFD !important;
+    width: 24rem !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .span{
+        font-size: 18px !important;
+        padding-top: 25px !important;
+    }
+
+     .card-bg {
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
